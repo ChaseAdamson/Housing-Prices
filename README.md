@@ -1,4 +1,4 @@
-# Housing-Prices
+# Housing Prices Data Science Portfolio Piece
 
 # California Housing Price Prediction with Confidence Intervals
 
@@ -40,13 +40,15 @@ Together, these form an **80% prediction interval** for each data entry.
 
 ## Dataset
 
-The project uses the **California Housing Dataset**, containing:
+The project uses the **California Housing Dataset** from the 1990 California census, containing:
 
 - Median income  
 - House age  
 - Average rooms and bedrooms  
-- Population  
-- Coordinates  
+- Population
+- Average number of occupants
+- Latitude
+- Longitude 
 - Median house value (target)
 
 The target variable is scaled in units of **$100,000**.
@@ -156,8 +158,7 @@ Shows that:
 
 - Comparing linear and nonlinear regression models  
 - How to use **LightGBM** for quantile regression  
-- How to compute **prediction intervals** using quantile loss  
-- Differences between RMSE, MAE, and R²  
+- How to compute **prediction intervals** using quantile loss 
 - How to evaluate interval calibration  
 - How to visualize uncertainty and interpret model risk  
 
