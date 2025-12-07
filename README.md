@@ -1,5 +1,3 @@
-# Housing Prices Data Science Portfolio Piece
-
 # California Housing Price Prediction with Confidence Intervals
 
 This project builds several machine learning models to predict **median house values** in California using neighborhood features from the California Housing dataset.  
